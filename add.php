@@ -1,7 +1,7 @@
 <?php
     error_reporting(E_ALL);
 
-    $mysqli = new mysqli("oniddb.cws.oregonstate.edu", "currymi-db", "8CWoFsrAAJxoeCzj", "currymi-db");
+    $mysqli = new mysqli("DATABASE", "USERNAME", "PASSWORD", "USERNAME");
     if ($mysqli->connect_errno) {
             echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
     }
