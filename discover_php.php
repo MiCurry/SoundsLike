@@ -1,7 +1,7 @@
 <?php
     
-    mysql_connect("oniddb.cws.oregonstate.edu", "currymi-db", "8CWoFsrAAJxoeCzj") or die(mysql_error());
-    mysql_select_db("currymi-db") or die(mysql_error());
+    mysql_connect("DATABASE", "USERNAME", "PASSWORD") or die(mysql_error());
+    mysql_select_db("DATABASE") or die(mysql_error());
 
 ?>
 
